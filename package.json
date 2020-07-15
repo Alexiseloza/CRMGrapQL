@@ -1,0 +1,23 @@
+{
+  "name": "crm-graphql-alexis",
+  "version": "1.0.0",
+  "description": "crm admin products, clients, sellers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Alexis Loza",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.15.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
